@@ -6,10 +6,10 @@
   margin-right: .5rem;
 }
 
-.pagination {
-  list-style: none;
+.pagination .page-number {
+  width: 10%
 }
 
-.pagination li {
-  display: inline-block;
+.pagination .page-number::-webkit-inner-spin-button {
+  display: none;
 }
